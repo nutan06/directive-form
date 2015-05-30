@@ -6,7 +6,8 @@ app.controller('formController',function(){
 app.directive('newForm', function() {
     return {
         restrict: "E",
-        templateUrl: "myform.html"
+        templateUrl: "myform.html",
+        transclude:true
     }
 });
 
